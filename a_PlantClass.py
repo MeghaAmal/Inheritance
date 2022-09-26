@@ -10,7 +10,7 @@ class Plant:
 
 class Flower(Plant):
     def __init__(self,color, petals):
-        Plant.__init__(self,color)
+        Plant.__init__(self,color)  #initialize the super class first
 
         self.__petals = petals
 
